@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C49F9311DF0BDFC00077762 /* TestCocoapod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49F9301DF0BDFC00077762 /* TestCocoapod.swift */; };
+		9C49F9331DF0C1B600077762 /* NYT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49F9321DF0C1B600077762 /* NYT.swift */; };
 		A20CB6F11DF0B1EA0062F46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CB6F01DF0B1EA0062F46A /* AppDelegate.swift */; };
 		A20CB6F31DF0B1EA0062F46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CB6F21DF0B1EA0062F46A /* ViewController.swift */; };
 		A20CB6F61DF0B1EA0062F46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20CB6F41DF0B1EA0062F46A /* Main.storyboard */; };
 		A20CB6F91DF0B1EA0062F46A /* NYT_Quint_A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A20CB6F71DF0B1EA0062F46A /* NYT_Quint_A.xcdatamodeld */; };
 		A20CB6FB1DF0B1EA0062F46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20CB6FA1DF0B1EA0062F46A /* Assets.xcassets */; };
 		A20CB6FE1DF0B1EA0062F46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20CB6FC1DF0B1EA0062F46A /* LaunchScreen.storyboard */; };
+		B62821942F46AF64DEE671B8 /* Pods_NYT_Quint_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410B29E6171B31CC0D435315 /* Pods_NYT_Quint_A.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E5025607BE50D743839BC58 /* Pods-NYT-Quint-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYT-Quint-A.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYT-Quint-A/Pods-NYT-Quint-A.debug.xcconfig"; sourceTree = "<group>"; };
+		410B29E6171B31CC0D435315 /* Pods_NYT_Quint_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYT_Quint_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49F9301DF0BDFC00077762 /* TestCocoapod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCocoapod.swift; sourceTree = "<group>"; };
+		9C49F9321DF0C1B600077762 /* NYT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYT.swift; sourceTree = "<group>"; };
 		A20CB6ED1DF0B1EA0062F46A /* NYT-Quint-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYT-Quint-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20CB6F01DF0B1EA0062F46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A20CB6F21DF0B1EA0062F46A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		A20CB6FA1DF0B1EA0062F46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20CB6FD1DF0B1EA0062F46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20CB6FF1DF0B1EA0062F46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35C2073843B4BD2DFBB1381 /* Pods-NYT-Quint-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYT-Quint-A.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYT-Quint-A/Pods-NYT-Quint-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62821942F46AF64DEE671B8 /* Pods_NYT_Quint_A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C6C52293BA89019A53D3A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E5025607BE50D743839BC58 /* Pods-NYT-Quint-A.debug.xcconfig */,
+				E35C2073843B4BD2DFBB1381 /* Pods-NYT-Quint-A.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68633945AAC1B9C1A67F985A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410B29E6171B31CC0D435315 /* Pods_NYT_Quint_A.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A20CB6E41DF0B1EA0062F46A = {
 			isa = PBXGroup;
 			children = (
 				A20CB6EF1DF0B1EA0062F46A /* NYT-Quint-A */,
 				A20CB6EE1DF0B1EA0062F46A /* Products */,
+				0C6C52293BA89019A53D3A1D /* Pods */,
+				68633945AAC1B9C1A67F985A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,8 @@
 			children = (
 				A20CB6F01DF0B1EA0062F46A /* AppDelegate.swift */,
 				A20CB6F21DF0B1EA0062F46A /* ViewController.swift */,
+				9C49F9301DF0BDFC00077762 /* TestCocoapod.swift */,
+				9C49F9321DF0C1B600077762 /* NYT.swift */,
 				A20CB6F41DF0B1EA0062F46A /* Main.storyboard */,
 				A20CB6FA1DF0B1EA0062F46A /* Assets.xcassets */,
 				A20CB6FC1DF0B1EA0062F46A /* LaunchScreen.storyboard */,
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A20CB7021DF0B1EA0062F46A /* Build configuration list for PBXNativeTarget "NYT-Quint-A" */;
 			buildPhases = (
+				806511AB497A76132764282B /* [CP] Check Pods Manifest.lock */,
 				A20CB6E91DF0B1EA0062F46A /* Sources */,
 				A20CB6EA1DF0B1EA0062F46A /* Frameworks */,
 				A20CB6EB1DF0B1EA0062F46A /* Resources */,
+				79796B5AC0D0348EC0318B93 /* [CP] Embed Pods Frameworks */,
+				11C7CED8A91D2E6599A92BD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11C7CED8A91D2E6599A92BD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYT-Quint-A/Pods-NYT-Quint-A-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79796B5AC0D0348EC0318B93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYT-Quint-A/Pods-NYT-Quint-A-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806511AB497A76132764282B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A20CB6E91DF0B1EA0062F46A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +222,8 @@
 			files = (
 				A20CB6F31DF0B1EA0062F46A /* ViewController.swift in Sources */,
 				A20CB6F91DF0B1EA0062F46A /* NYT_Quint_A.xcdatamodeld in Sources */,
+				9C49F9331DF0C1B600077762 /* NYT.swift in Sources */,
+				9C49F9311DF0BDFC00077762 /* TestCocoapod.swift in Sources */,
 				A20CB6F11DF0B1EA0062F46A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +345,7 @@
 		};
 		A20CB7031DF0B1EA0062F46A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5025607BE50D743839BC58 /* Pods-NYT-Quint-A.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "NYT-Quint-A/Info.plist";
@@ -274,6 +358,7 @@
 		};
 		A20CB7041DF0B1EA0062F46A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35C2073843B4BD2DFBB1381 /* Pods-NYT-Quint-A.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "NYT-Quint-A/Info.plist";
@@ -303,6 +388,7 @@
 				A20CB7041DF0B1EA0062F46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
