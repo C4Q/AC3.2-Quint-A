@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewCellID" id="gTV-IL-0wX" customClass="ArticleCollectionViewCell" customModule="NYT_Quint_A" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="214" height="218"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="214" height="218"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2M1-iG-Pk7">
+                        <rect key="frame" x="0.0" y="-23" width="214" height="264"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="214" id="ai7-Ba-gtW"/>
+                            <constraint firstAttribute="height" constant="264" id="n8A-bO-k5Q"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpu-Au-Wqu">
+                        <rect key="frame" x="0.0" y="-23" width="214" height="264"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="214" id="4qq-T8-lDe"/>
+                            <constraint firstAttribute="height" constant="264" id="WBr-le-zDb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="2M1-iG-Pk7" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="GYG-dS-bMb"/>
+                <constraint firstItem="kpu-Au-Wqu" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="ZeN-D4-S8C"/>
+                <constraint firstItem="2M1-iG-Pk7" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="jYb-X2-uxe"/>
+                <constraint firstItem="kpu-Au-Wqu" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="xKW-uu-mwb"/>
+            </constraints>
+            <size key="customSize" width="214" height="218"/>
+            <connections>
+                <outlet property="backContainerView" destination="2M1-iG-Pk7" id="alt-QO-4Aa"/>
+                <outlet property="frontConstraintY" destination="ZeN-D4-S8C" id="5Mc-Cr-58U"/>
+                <outlet property="frontContainerView" destination="kpu-Au-Wqu" id="LlQ-Xg-nXj"/>
+            </connections>
+            <point key="canvasLocation" x="216" y="-414"/>
+        </collectionViewCell>
+    </objects>
+</document>
